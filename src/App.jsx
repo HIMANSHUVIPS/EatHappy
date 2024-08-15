@@ -1,35 +1,115 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-
-function App() {
-  const [count, setCount] = useState(0)
-
+import React from "react";
+import styles from "./App.module.css";
+import NavBar from "./components/NavBar";
+import pizza from "./assets/pizza.jpg";
+const App = () => {
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <div className={styles.container}>
+      <div className={styles.gradient}></div>
+      <div className={styles.content}>
+        <NavBar/>
+        <div className={styles.foodContainer}>
+          <div className={styles.foodItem}>
+            <div className={styles.left}>
+              <img src={pizza} alt="" srcset="" />
+            </div>
+            <div className={styles.right}>
+              <div className={styles.heading}>
+                <h1>Pizza</h1>
+              </div>
+              <div className={styles.info}>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum nesciunt fugiat rem eveniet esse eum.</p>
+              </div>
+              <div className={styles.amount}>
+                <button type="button">$10.00</button>
+              </div>
+            </div>
+          </div>
+          <div className={styles.foodItem}>
+            <div className={styles.left}>
+              <img src={pizza} alt="" srcset="" />
+            </div>
+            <div className={styles.right}>
+              <div className={styles.heading}>
+                <h1>Pizza</h1>
+              </div>
+              <div className={styles.info}>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum nesciunt fugiat rem eveniet esse eum.</p>
+              </div>
+              <div className={styles.amount}>
+                <button type="button">$10.00</button>
+              </div>
+            </div>
+          </div>
+          <div className={styles.foodItem}>
+            <div className={styles.left}>
+              <img src={pizza} alt="" srcset="" />
+            </div>
+            <div className={styles.right}>
+              <div className={styles.heading}>
+                <h1>Pizza</h1>
+              </div>
+              <div className={styles.info}>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum nesciunt fugiat rem eveniet esse eum.</p>
+              </div>
+              <div className={styles.amount}>
+                <button type="button">$10.00</button>
+              </div>
+            </div>
+          </div>
+          <div className={styles.foodItem}>
+            <div className={styles.left}>
+              <img src={pizza} alt="" srcset="" />
+            </div>
+            <div className={styles.right}>
+              <div className={styles.heading}>
+                <h1>Pizza</h1>
+              </div>
+              <div className={styles.info}>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum nesciunt fugiat rem eveniet esse eum.</p>
+              </div>
+              <div className={styles.amount}>
+                <button type="button">$10.00</button>
+              </div>
+            </div>
+          </div>
+          <div className={styles.foodItem}>
+            <div className={styles.left}>
+              <img src={pizza} alt="" srcset="" />
+            </div>
+            <div className={styles.right}>
+              <div className={styles.heading}>
+                <h1>Pizza</h1>
+              </div>
+              <div className={styles.info}>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum nesciunt fugiat rem eveniet esse eum.</p>
+              </div>
+              <div className={styles.amount}>
+                <button type="button">$10.00</button>
+              </div>
+            </div>
+          </div>
+          <div className={styles.foodItem}>
+            <div className={styles.left}>
+              <img src={pizza} alt="" srcset="" />
+            </div>
+            <div className={styles.right}>
+              <div className={styles.heading}>
+                <h1>Pizza</h1>
+              </div>
+              <div className={styles.info}>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum nesciunt fugiat rem eveniet esse eum.</p>
+              </div>
+              <div className={styles.amount}>
+                <button type="button">$10.00</button>
+              </div>
+            </div>
+          </div>
+          
+        </div>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
-}
+    </div>
+  );
+};
 
-export default App
+export default App;

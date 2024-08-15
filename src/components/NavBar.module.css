@@ -1,0 +1,98 @@
+nav {
+    background-color: #151515;
+    padding: 20px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.logo {
+    font-size: 6vmin;
+    font-family: "Exo 2", sans-serif;
+    color: white;
+}
+
+.logo span {
+    color: red;
+}
+
+.nav_search {
+    position: relative;
+}
+
+.nav_search input[type="search"] {
+    padding: 10px 10px 10px 10px; /* Adjust padding for visual balance */
+    border: 2px solid red; /* Border color */
+    border-radius: 4px; /* Rounded corners */
+    outline: none; /* Remove default outline */
+    background-color: #000; /* Background color */
+    color: white; /* Text color */
+    font-size: 1rem; /* Font size */
+    /* width: 100%; Full width of the parent container */
+    box-sizing: border-box; /* Include padding and border in width */
+    transition: border-color 0.3s, background-color 0.3s; /* Smooth transitions */
+}
+
+.nav_search input[type="search"]::placeholder {
+    color: #888; /* Placeholder text color */
+}
+
+.nav_search input[type="search"]:focus {
+    border-color: #ff0000; /* Highlight border color on focus */
+    background-color: #111; /* Darker background on focus */
+}
+
+.nav_search input[type="search"]::placeholder{
+    color: white;
+    font-family: "Exo 2", sans-serif;
+}
+.nav_search input[type="search"]::-webkit-search-clear-button {
+    cursor: pointer;
+}
+
+.nav_search input[type="search"]::-webkit-search-cancel-button {
+    cursor: pointer;
+}
+.links {
+    display: flex;
+    gap: 20px; /* Space between links */
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+}
+
+.links a {
+    text-decoration: none;
+    font-family: "Exo 2", sans-serif;
+    color: white;
+    font-size: 2vmin;
+    background-color: red;
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.links a:hover {
+    background-color: darkred;
+    color: white;
+}
+
+.links a:active {
+    background-color: white;
+    color: red;
+}
