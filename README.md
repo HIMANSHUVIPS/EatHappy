@@ -1,18 +1,18 @@
-Here's a detailed and creative README file for your "HappyEat" food menu website:
+Here's a detailed and creative README file for your "EatHappy" food menu website:
 
 ---
 
-# 🍽️ HappyEat
+# 🍽️ EatHappy
 
-Welcome to **HappyEat** – your go-to food menu website! Whether you're craving a hearty breakfast, a quick snack, or a gourmet dinner, HappyEat has got you covered with a diverse menu to satisfy your taste buds.
+Welcome to **EatHappy** – your go-to food menu website! Whether you're craving a hearty breakfast, a quick snack, or a gourmet dinner, EatHappy has got you covered with a diverse menu to satisfy your taste buds.
 
 ## 🚀 Project Overview
 
-**HappyEat** is a fully responsive, dynamic food menu website built using the React library. It offers a smooth, user-friendly interface that adapts seamlessly across all devices, ensuring a delightful experience whether you're browsing on your phone, tablet, or desktop.
+**EatHappy** is a fully responsive, dynamic food menu website built using the React library. It offers a smooth, user-friendly interface that adapts seamlessly across all devices, ensuring a delightful experience whether you're browsing on your phone, tablet, or desktop.
 
 ### 🌟 Features
 
-- **Responsive Design:** Crafted with responsiveness in mind, HappyEat looks and works great on screens of all sizes.
+- **Responsive Design:** Crafted with responsiveness in mind, EatHappy looks and works great on screens of all sizes.
 - **Dynamic Menu:** Easily navigate through our diverse menu items, dynamically rendered using React components.
 - **Interactive UI:** Smooth transitions and interactive elements provide a delightful user experience.
 - **Efficient State Management:** Leveraging React's state management to keep track of user interactions.
@@ -39,8 +39,8 @@ Welcome to **HappyEat** – your go-to food menu website! Whether you're craving
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/happyeat.git
-   cd happyeat
+   git clone https://github.com/yourusername/EatHappy.git
+   cd EatHappy
    ```
 
 2. **Install dependencies:**
@@ -55,7 +55,7 @@ Welcome to **HappyEat** – your go-to food menu website! Whether you're craving
 
 ## 🌐 Live Demo
 
-Check out the live demo of HappyEat [here](https://example.com) *(Replace with actual URL)*.
+Check out the live demo of EatHappy [here](https://example.com) *(Replace with actual URL)*.
 
 ## 🤝 Contributing
 
@@ -71,7 +71,7 @@ For any inquiries or feedback, feel free to reach out to us at [sharmahimanshuvd
 
 ---
 
-Enjoy browsing through our delicious menu at **HappyEat**! 🎉
+Enjoy browsing through our delicious menu at **EatHappy**! 🎉
 
 ---
 
