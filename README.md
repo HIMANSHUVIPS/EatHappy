@@ -55,7 +55,7 @@ Welcome to **EatHappy** – your go-to food menu website! Whether you're craving
 
 ## 🌐 Live Demo
 
-Check out the live demo of EatHappy [here](https://example.com) *(Replace with actual URL)*.
+Check out the live demo of EatHappy [here](https://eat-happy.vercel.app/) *(Replace with actual URL)*.
 
 ## 🤝 Contributing
 
