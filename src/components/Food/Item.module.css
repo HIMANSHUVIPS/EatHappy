@@ -2,7 +2,7 @@
     width: 30%;
     height: 210px;
     margin: 0 auto;
-    background-color: #0000005a ;
+    background-color: #5854545a ;
     backdrop-filter: blur(3px);
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -93,4 +93,45 @@
 
 .amount button:hover {
     background-color: #e64a19;
+}
+@media(max-width:850px)
+{
+    .foodItem{
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    .left {
+        width: 40%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .left img {
+        border-radius: 50%;
+        width: 90px;
+        height: 90px;
+        object-fit: cover;
+    }
+    .amount {
+        display: flex;
+        justify-content: flex-start;
+    }
+    .amount button {
+        background-color: red;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        padding: 5px 10px;
+        font-size: 13px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        margin-right: 0px;
+    }
+    .info p {
+        font-size: 0.7rem;
+        color: #ffffff;
+        margin: 5px 0;
+        font-family: "Montserrat", sans-serif;
+    }
 }

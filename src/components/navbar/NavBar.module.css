@@ -64,12 +64,6 @@ nav {
     display: flex;
     gap: 20px; /* Space between links */
 }
-
-.links {
-    display: flex;
-    gap: 20px;
-}
-
 .links a {
     text-decoration: none;
     font-family: "Exo 2", sans-serif;
@@ -95,4 +89,36 @@ nav {
 .links a:active {
     background-color: white;
     color: red;
+}
+@media(max-width:850px){
+    .top_nav {
+        display: flex;
+       flex-direction: column;
+       gap: 25px;
+    }
+    .logo{
+        font-size: 12vmin;
+    }
+    .nav_search input[type="search"] {
+        padding:10px 10px 10px 20px;
+        height: 40px;
+       border-radius: 30px;
+    }
+    .links {
+        display: flex;
+        gap: 15px;
+    }
+    .links a {
+        font-size: 4vmin;
+        border: 1px solid white;
+        border-radius: 8px;
+        padding: 10px;
+        width: 70px;
+        text-align: center;
+    }
+    .links a:nth-child(2){
+        font-size: 3.5vmin;
+    }
+   
+    
 }

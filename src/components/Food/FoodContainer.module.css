@@ -7,3 +7,16 @@
     flex-wrap: wrap;
 }
 
+@media(max-width:850px)
+{
+    .foodContainer {
+        width: 90%;
+        height: 100%;
+        margin: 40px auto;
+        display: flex;
+        gap: 40px;
+        flex-wrap: wrap;
+    }
+    
+    
+}
