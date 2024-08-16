@@ -27,8 +27,13 @@ Welcome to **HappyEat** – your go-to food menu website! Whether you're craving
 - **React Router:** For smooth navigation between different sections of the menu.
 
 ## 📸 Screenshots
+![1](https://github.com/user-attachments/assets/8761f78b-f3cf-44b2-b6ff-11629d6e918c)
 
+![2](https://github.com/user-attachments/assets/59e35083-3834-48bb-9e5e-9e3aad2630b6)
+![3](https://github.com/user-attachments/assets/b5bf32b0-ff14-424b-af92-1e3090456f4e)
 
+![4](https://github.com/user-attachments/assets/2265b707-e0f7-4e9e-a69e-870644867272)
+![5](https://github.com/user-attachments/assets/070a89a0-81c1-4ead-b491-43be73d2597f)
 
 ## ⚙️ Setup Instructions
 
