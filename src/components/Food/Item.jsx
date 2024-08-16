@@ -1,124 +1,28 @@
-import React from 'react'
+import React from "react";
 import styles from "./Item.module.css";
-const Item = ({pizza}) => {
+const Item = ({ data }) => {
   return (
     <>
-    <div className={styles.foodItem}>
-        <div className={styles.left}>
-          <img src={pizza} alt=""/>
-        </div>
-        <div className={styles.right}>
-          <div className={styles.heading}>
-            <h1>Pizza</h1>
+      {data.map(({ id,foodName, foodInfo, foodImg, price }) => (
+        <div className={styles.foodItem} key={id}>
+          <div className={styles.left}>
+            <img src={foodImg} alt="" />
           </div>
-          <div className={styles.info}>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum
-              nesciunt fugiat rem eveniet esse eum.
-            </p>
-          </div>
-          <div className={styles.amount}>
-            <button type="button">$10.00</button>
-          </div>
-        </div>
-      </div>
-      <div className={styles.foodItem}>
-        <div className={styles.left}>
-          <img src={pizza} alt=""/>
-        </div>
-        <div className={styles.right}>
-          <div className={styles.heading}>
-            <h1>Pizza</h1>
-          </div>
-          <div className={styles.info}>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum
-              nesciunt fugiat rem eveniet esse eum.
-            </p>
-          </div>
-          <div className={styles.amount}>
-            <button type="button">$10.00</button>
+          <div className={styles.right}>
+            <div className={styles.heading}>
+              <h1>{foodName}</h1>
+            </div>
+            <div className={styles.info}>
+              <p>{foodInfo}</p>
+            </div>
+            <div className={styles.amount}>
+              <button type="button">{price}</button>
+            </div>
           </div>
         </div>
-      </div>
-      <div className={styles.foodItem}>
-        <div className={styles.left}>
-          <img src={pizza} alt=""/>
-        </div>
-        <div className={styles.right}>
-          <div className={styles.heading}>
-            <h1>Pizza</h1>
-          </div>
-          <div className={styles.info}>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum
-              nesciunt fugiat rem eveniet esse eum.
-            </p>
-          </div>
-          <div className={styles.amount}>
-            <button type="button">$10.00</button>
-          </div>
-        </div>
-      </div>
-      <div className={styles.foodItem}>
-        <div className={styles.left}>
-          <img src={pizza} alt=""/>
-        </div>
-        <div className={styles.right}>
-          <div className={styles.heading}>
-            <h1>Pizza</h1>
-          </div>
-          <div className={styles.info}>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum
-              nesciunt fugiat rem eveniet esse eum.
-            </p>
-          </div>
-          <div className={styles.amount}>
-            <button type="button">$10.00</button>
-          </div>
-        </div>
-      </div>
-      <div className={styles.foodItem}>
-        <div className={styles.left}>
-          <img src={pizza} alt=""/>
-        </div>
-        <div className={styles.right}>
-          <div className={styles.heading}>
-            <h1>Pizza</h1>
-          </div>
-          <div className={styles.info}>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum
-              nesciunt fugiat rem eveniet esse eum.
-            </p>
-          </div>
-          <div className={styles.amount}>
-            <button type="button">$10.00</button>
-          </div>
-        </div>
-      </div>
-      <div className={styles.foodItem}>
-        <div className={styles.left}>
-          <img src={pizza} alt=""/>
-        </div>
-        <div className={styles.right}>
-          <div className={styles.heading}>
-            <h1>Pizza</h1>
-          </div>
-          <div className={styles.info}>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum
-              nesciunt fugiat rem eveniet esse eum.
-            </p>
-          </div>
-          <div className={styles.amount}>
-            <button type="button">$10.00</button>
-          </div>
-        </div>
-      </div>
-      </>
-  )
-}
+      ))}
+    </>
+  );
+};
 
-export default Item
+export default Item;

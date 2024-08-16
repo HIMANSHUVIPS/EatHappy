@@ -1,10 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "./FoodContainer.module.css";
 import Item from "./Item";
-const FoodContainer = ({pizza}) => {
+const FoodContainer = ({data}) => {
   return (
     <div className={styles.foodContainer}>
-      <Item pizza = {pizza}/>
+      <Item data = {data}/>
     </div>
   );
 };
